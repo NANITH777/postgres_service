@@ -1,0 +1,9 @@
+[unit]
+Description=Test Service
+
+[Service]
+Type=simple
+ExecStart=/home/nanith/odev/test/odev.sh
+
+[Install]
+WantedBy=multi-user.target
